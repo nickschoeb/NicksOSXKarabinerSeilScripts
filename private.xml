@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<root>    
+  <!-- Arrow Key Alternatives -->
+  <item>
+    <name>Home Row Arrow Keys</name>
+    <identifier>private.home_row_arrow_keys</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::W,
+      ModifierFlag::CONTROL_R,
+      KeyCode::CURSOR_UP      
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::A,
+      ModifierFlag::CONTROL_R,
+      KeyCode::CURSOR_LEFT     
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::S,
+      ModifierFlag::CONTROL_R,
+      KeyCode::CURSOR_DOWN     
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::D,
+      ModifierFlag::CONTROL_R,
+      KeyCode::CURSOR_RIGHT
+    </autogen>    
+  </item>
+</root>
